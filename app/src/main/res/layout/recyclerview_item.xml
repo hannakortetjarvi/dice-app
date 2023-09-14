@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1mm"
+    android:paddingLeft="1mm"
+    android:paddingTop="1mm"
+    android:paddingRight="1mm" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dice_values"
+        android:paddingEnd="10dp"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/firstRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginEnd="5dp"/>
+
+    <ImageView
+        android:id="@+id/secondRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginEnd="5dp"/>
+
+    <ImageView
+        android:id="@+id/thirdRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginEnd="5dp"/>
+
+    <ImageView
+        android:id="@+id/fourthRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginEnd="5dp"/>
+
+    <ImageView
+        android:id="@+id/fifthRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginEnd="5dp"/>
+
+    <ImageView
+        android:id="@+id/sixthRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginEnd="5dp"/>
+</LinearLayout>

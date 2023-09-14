@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GameApp</string>
+    <string name="logout">Sign out</string>
+    <string name="motion_recognition">Motion recognition</string>
+    <string name="speech_recognition">Speech recognition</string>
+    <string name="clicking_recognition">Clicking recognition</string>
+    <string name="chosen_trigger">Chosen trigger:</string>
+    <string name="show_statistics">Show statistics</string>
+    <string name="throw_dice">Throw dice</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="_1">1</string>
+    <string name="first_dice">first dice</string>
+    <string name="previous_throws">Previous throws:</string>
+    <string name="login_into_gameapp">Login into DiceThrowingApp:</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="sign_in_without_credentials">Sign in without credentials</string>
+    <string name="note_if_you_sign_in_without_credentials_your_data_will_be_lost_once_you_sign_out">Note! If you sign in without credentials, your data will be lost once you sign out</string>
+    <string name="dice_values">Dice values:</string>
+</resources>
